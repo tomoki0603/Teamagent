@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node --version)",
+      "Bash(npm --version)",
+      "Bash(tmux -V)",
+      "Bash(npm install -g @anthropic-ai/claude-code)",
+      "Bash(pacman --version)",
+      "Bash(winget search tmux)",
+      "Bash(winget install arndawg.tmux-windows --accept-package-agreements --accept-source-agreements)",
+      "Bash(claude --version)",
+      "WebFetch(domain:note.com)",
+      "WebFetch(domain:zenn.dev)",
+      "Bash(git init /c/Users/start/Desktop/Claude_Projects/Teamagent)",
+      "Bash(echo $CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS)",
+      "Bash(git -C /c/Users/start/Desktop/demo remote -v)",
+      "Bash(git -C /c/Users/start/Desktop/demo config --list)",
+      "Bash(gh auth status)",
+      "Bash(winget install GitHub.cli --accept-package-agreements --accept-source-agreements)",
+      "Bash(export PATH=\"$PATH:/c/Program Files/GitHub CLI\")",
+      "Bash(gh --version)",
+      "Bash(gh auth login --web --git-protocol https)",
+      "Bash(gh auth login -p https -h github.com --web)",
+      "Bash(gh repo create tomoki0603/Teamagent --public --source=. --description \"Claude Code Agent Teams を使った並列開発プロジェクト\")",
+      "Bash(git add CLAUDE.md .claude/)",
+      "Bash(git commit:*)"
+    ]
+  }
+}
