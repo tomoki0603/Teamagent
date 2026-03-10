@@ -1,0 +1,18 @@
+# Claude Code ローカル設定
+.claude/settings.local.json
+.claude/tasks/
+.claude/teams/
+
+# 環境固有
+node_modules/
+.env
+.env.local
+
+# OS生成ファイル
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ログ・一時ファイル
+*.log
+*.tmp
